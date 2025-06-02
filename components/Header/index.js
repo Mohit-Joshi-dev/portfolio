@@ -64,13 +64,13 @@ const Header = ({ data: { menus, handleItemSelect, handleIconClick, rightBtn, lo
         <header className='mk-header'>
             <div className='mk-header-container'>
                 <div>
-                    {!logo?.src ? (
+                    {/* {!logo?.src ? (
                         <MK onClick={handleIconClick} width={45} height={45} />
                     ) : (
                         <div onClick={handleIconClick} className='mk-logo-bg'>
                             <Image width={60} height={60} src={logo.src} alt={logo.alt} />
                         </div>
-                    )}
+                    )} */}
                 </div>
                 <div className='d-flex'>
                     {rightBtn && (

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const WindowScreen = ({ children, containerClassName }) => {
     return (
         <div className={`mk-window-screen ${containerClassName}`}>
-            <div className='mk-taskbar'>
+            {/* <div className='mk-taskbar'>
                 <div className='mk-circles'>
                     <div className='mk-circle mk-circle1' />
                     <div className='mk-circle mk-circle2' />
@@ -15,7 +15,7 @@ const WindowScreen = ({ children, containerClassName }) => {
                         {'http://localhost:1234'}
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div>
                 {children}
             </div>

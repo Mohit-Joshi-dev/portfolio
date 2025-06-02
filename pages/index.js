@@ -11,7 +11,17 @@ import Reviews from "../views/Reviews";
 import SideElements from "../components/SideElements";
 import TopScrolledBar from "../components/TopScrolledBar";
 import Works from "../views/Works";
-import { contact, graphics, header, mapsContribution, mySelf, outer, projects, reviews, works } from "../utils";
+import {
+  contact,
+  graphics,
+  header,
+  mapsContribution,
+  mySelf,
+  outer,
+  projects,
+  reviews,
+  works,
+} from "../utils";
 import sideElements from "../utils/sideElements";
 import Cursor from "../components/Cursor";
 import PreLoader from "../components/PreLoader";
@@ -20,17 +30,18 @@ import certifications from "../utils/certifications";
 import WaterMark from "../components/WaterMark";
 
 const ViewElement = ({ children, id }) => (
-  <div id={id} className="view-element">{children}</div>
-)
+  <div id={id} className="view-element">
+    {children}
+  </div>
+);
 
 export default function Home() {
   return (
     <>
-      <PreLoader />
+      {/* <PreLoader /> */}
 
       <Cursor />
       <ParallaxProvider>
-
         <TopScrolledBar />
 
         <FullPageScroll />
@@ -55,9 +66,9 @@ export default function Home() {
           <Projects data={projects} />
         </ViewElement>
 
-        <ViewElement id="reviews">
+        {/* <ViewElement id="reviews">
           <Reviews data={reviews} />
-        </ViewElement>
+        </ViewElement> */}
 
         {/* <ViewElement id="designs">
           <Graphis data={graphics} />
@@ -67,9 +78,9 @@ export default function Home() {
           <Certifications data={certifications} />
         </ViewElement>
 
-        <ViewElement id="contributions">
+        {/* <ViewElement id="contributions">
           <MapsContribution data={mapsContribution} />
-        </ViewElement>
+        </ViewElement> */}
 
         <ViewElement id="contact">
           <Contact data={contact} />
@@ -78,5 +89,5 @@ export default function Home() {
         <WaterMark />
       </ParallaxProvider>
     </>
-  )
+  );
 }

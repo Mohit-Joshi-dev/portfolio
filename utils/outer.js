@@ -1,19 +1,18 @@
-import { openLink } from "./methods"
+import { openLink } from "./methods";
 
 const outer = {
-    title1:  `G'day, I'm`,
-    title2: 'Muneeb Khan,',
-    decrypTexts: [
-        'A Software Engineer',
-        'A Full Stack Developer',
-        'I build things for the web',
-        // 'A Traveler',
-    ],
-    desciption: `A dedicated and disciplined Full Stack engineer who love to create things for internet, having more than 4 years of field experience I've delivered projects to many happy clients over globe.`,
-    button: {
-        label: 'Contact me!',
-        onClick: () => openLink('mailto:muneebwasikhan@gmail.com?subject=Hello')
-    }
-}
+  title1: `Hello, I'm`,
+  title2: "Mohit Joshi,",
+  decrypTexts: [
+    "A Software Engineer",
+    "A Mobile Developer",
+    "I build things for the Mobile",
+  ],
+  desciption: `I’m a mobile developer with 5+ years of experience. I’ve built a wide range of apps—including e-commerce platforms, internal employee tools, and order management systems. My strengths lie in Flutter/Dart and iOS native development.`,
+  button: {
+    label: "Contact me!",
+    onClick: () => openLink("mailto:mohitjoshi199923@gmail.com?subject=Hello"),
+  },
+};
 
-export default outer
+export default outer;

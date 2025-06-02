@@ -6,13 +6,14 @@
 
     .mk-works-container {
         width: 100%;
-        max-width: 700px;
+        max-width: 800px;
         padding: 100px 0;
         margin: auto;
 
 
         .mk-works-tab {
             display: flex;
+            padding: 0px 0px 35px 0px;
 
             .mk-works-left-border {
                 width: 2px;
@@ -28,12 +29,13 @@
             }
 
             .mk-works-tab-left {
+                flex: 2;
 
                 .mk-works-tab-left-button {
                     width: 100%;
                     padding: 10px 20px 10px 10px;
                     white-space: nowrap;
-                    font-size: 14px;
+                    font-size: 16px;
                     line-height: 14px;
                     height: 42px;
                     display: flex;
@@ -50,7 +52,7 @@
             }
 
             .mk-works-tab-right {
-                flex: 1;
+                flex: 5;
                 color: $themeColor3;
 
                 .mk-works-tab-right-title {

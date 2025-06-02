@@ -46,12 +46,12 @@ const litePalettes = [
         layer1: '#222831',
         layer2: '#393E46',
         layer3: '#00ADB5',
-        layer4: '#EEEEEE', 
+        layer4: '#EEEEEE', // for projects
     },
     {
         layer1: '#222831',
         layer2: '#393E46',
-        layer3: '#FFD369',
+        layer3: '#00ADB5',
         layer4: '#EEEEEE', 
     },
     // {
@@ -62,9 +62,9 @@ const litePalettes = [
     // },
     {
         layer1: '#222831',
-        layer2: '#EEEEEE',
-        layer3: '#00ADB5',
-        layer4: '#393E46', // sss
+        layer2: '#434343',
+        layer3: '#F9EACD',
+        layer4: '#F7C872', // for contact
     },
     // {
     //     layer1: '#222831',

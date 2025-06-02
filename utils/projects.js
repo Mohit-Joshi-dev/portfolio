@@ -2,56 +2,57 @@ const projects = {
     heading: `Things I've Worked on`,
     list: [
         {
-            image: '/assets/projects/PIAIC.png',
-            label: 'Featured Project',
-            title: 'PIAIC Web/Portal',
-            description: 'The mission of PIAIC is to reshape Pakistan by revolutionizing education, research, and business by adopting latest, cutting-edge technologies.',
+            image: '/assets/projects/project1.png',
+            label: `1+ Million downloads on PlayStore.`,
+            title: 'Nutrabay',
+            description: 'Protein powder ordering app (E-commerce) using webviews and native payment gateways. Integrated Google Analytics and CleverTap. Navite Login screens with bridges to the web.',
             techs: [
-                'React Js',
-                'Express Js',
-                'Mongodb',
+                'Flutter',
+                'Bloc',
+                'Stripe',
+                'Google Analytics'
             ]
         },
         {
-            image: '/assets/projects/digitalplattform.png',
-            label: 'Featured Project',
-            title: 'Digital Plattform',
-            description: 'A Platform that offers everything from marketing strategy and solving technical challenges to content creation for social media',
+            image: '/assets/projects/project2.png',
+            label: '#103 in Business on AppStore.',
+            title: 'Blue Star Customer Care App',
+            description: 'A one-stop solution to enhance the ownership experience of all Blue Star appliances—schedule and track services, register products, and much more, all at your fingertips.',
             techs: [
-                'React Js',
-                'Express Js',
-                'GraphQl/Apollo',
-                'Mongodb',
+                'Swift',
+                'Alamofire'
             ]
         },
         {
-            image: '/assets/projects/declinica.png',
-            label: 'Featured Project',
-            title: 'Declinica',
-            description: 'A Decentralised blockchain Designed for the medical community.',
+            image: '/assets/projects/project3.png',
+            label: '',
+            title: 'SkillsHub',
+            description: 'Skills Hub App is part of a platform developed by Skyscape for mastering nursing skills. Users can also track skills practiced in the Lab/Clinic, build a portfolio.',
             techs: [
-                'React Js',
-                'Web3 Js',
+                'Swift',
+                'Objective-C',
+                'Stripe'
             ]
         },
         {
-            image: '/assets/projects/rolazdoro.png',
-            label: 'Featured Project',
-            title: `Rolaz D'oro`,
-            description: `One of the main objective of Rolaz D'ORO is to make gold easily accessible to even small investors in a trusted and secure environment, with the peace of mind that their investments are traceable and could be claimed at any stated time.`,
+            image: '/assets/projects/project4.png',
+            label: '',
+            title: `Skyscape Medical Library`,
+            description: `Skyscape Medical Library (SML) provides a medical books library at the user's fingertips. Skyscape has partnered with more than 35 respected publishers and content providers to offer more than 350 virtual`,
             techs: [
-                'React Js',
-                'Web3 Js',
+                'Objective-C',
+                'Kommunicate ChatBot'
             ]
         },
         {
-            image: '/assets/projects/chainracers.png',
-            label: 'Featured Project',
-            title: `Chainracers`,
-            description: `ChainRacers is a play-to-earn NFT Race Battle Game. The GammaVerse, our growing MetaVerse featuring characters, worlds, arenas, and more, will kick things off with 8,888 unique generative NFT sets. Each set will include a NFT Racer and NFT Rider.`,
+            image: '/assets/projects/project5.png',
+            label: '',
+            title: `Gamistaan`,
+            description: `Gamistaan is India's premier platform for all your gaming needs.xplore a vast library: Access a diverse collection of over 300+ games, including popular titles and hidden gems. Flexible options: Rent, buy, or subscribe to games that suit your budget and playtime.`,
             techs: [
-                'React Js',
-                'Web3 Js',
+                'Flutter',
+                'RazorPay',
+                'Riverpod'
             ]
         }
     ]

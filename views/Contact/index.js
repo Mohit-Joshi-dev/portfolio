@@ -18,18 +18,18 @@ const Contact = ({ data: {
         forks: null,
     });
 
-    useEffect(() => {
-        fetch('https://api.github.com/repos/Muneebwasikhan/portfolio')
-            .then(response => response.json())
-            .then(json => {
-                const { stargazers_count, forks_count } = json;
-                setGitHubInfo({
-                    stars: stargazers_count,
-                    forks: forks_count,
-                });
-            })
-            .catch(e => console.error(e));
-    }, []);
+    // useEffect(() => {
+    //     fetch('https://api.github.com/repos/Muneebwasikhan/portfolio')
+    //         .then(response => response.json())
+    //         .then(json => {
+    //             const { stargazers_count, forks_count } = json;
+    //             setGitHubInfo({
+    //                 stars: stargazers_count,
+    //                 forks: forks_count,
+    //             });
+    //         })
+    //         .catch(e => console.error(e));
+    // }, []);
 
     const { ref } = useParallax({
         easing: 'easeIn',
@@ -56,7 +56,7 @@ const Contact = ({ data: {
                                 {button?.label}
                             </button>
                         </div>
-                        <div onClick={handleBuiltByClick} className='mk-contact-git-section'>
+                        {/* <div onClick={handleBuiltByClick} className='mk-contact-git-section'>
                             <div>{designAndBuiltBy}</div>
                             {!!(githubInfo.stars && githubInfo.forks) && (
                                 <div>
@@ -71,7 +71,7 @@ const Contact = ({ data: {
                                     </span>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
